@@ -1,10 +1,10 @@
-# 🌌 Aura - 3D Audio-Reactive Visualizer
+# Aura - 3D Audio-Reactive Visualizer
 
 A real-time 3D audio visualizer that transforms music into an immersive particle universe. Built with Next.js, Three.js, and the Web Audio API.
 
 ![Aura Demo](./demo.png)
 
-## ✨ Features
+## Features
 
 - **Real-time Audio Analysis** - FFT-powered frequency decomposition into bass, mid, and treble bands
 - **Reactive 3D Particles** - 6,000 particles that pulse, wave, and shift color based on the music
@@ -13,7 +13,7 @@ A real-time 3D audio visualizer that transforms music into an immersive particle
 - **Smooth 60fps** - Optimized with React Three Fiber and additive blending
 - **Glassmorphism UI** - Modern, translucent control panel
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install dependencies
@@ -36,7 +36,7 @@ npm run dev
 | [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) | Real-time audio analysis |
 | [Tailwind CSS](https://tailwindcss.com/) | Styling |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -52,7 +52,7 @@ src/
     └── useAudio.ts      # Web Audio API hook
 ```
 
-## 🎨 How It Works
+## How It Works
 
 1. **Audio Input** → User provides audio via microphone or file upload
 2. **FFT Analysis** → `useAudio` hook runs real-time frequency analysis
@@ -60,7 +60,7 @@ src/
 4. **3D Reactivity** → Particles displace and change color based on frequency bands
 5. **Rendering** → Three.js renders at 60fps with additive blending
 
-## 📦 Deploy to Vercel
+## Deploy to Vercel
 
 ```bash
 npm run build
